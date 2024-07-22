@@ -23,7 +23,7 @@ const fileChunk = Buffer.alloc(PER_FILE_SIZE, "a");
 /**
  * 生成文件的地址
  */
-const PATH = resolve(__dirname, "../output/bigFile.txt");
+const PATH = resolve(__dirname, "../../output/bigFile.txt");
 
 function writeFileByCallback() {
   /**
