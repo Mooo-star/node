@@ -4,7 +4,10 @@ node_modules
 .pnp
 .pnp.js
 
+# output
 output/*
+!output/README.md
+
 # Local env files
 .env
 .env.local
